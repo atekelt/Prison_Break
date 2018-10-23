@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: a82c6daa95b1a5f4aa193606b5e1990e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 01_Player_box
+    100002: 02_Spinnen Armature
+    100004: 02_Spinnen Armature.001
+    100006: Area
+    100008: bmw7
+    100010: bmw7.001
+    100012: bmw7.002
+    100014: bmw7.003
+    100016: bmw7.004
+    100018: Body
+    100020: Body 1
+    100022: Body.002
+    100024: Body.002 1
+    100026: Body.003
+    100028: Body.003 1
+    100030: Body2
+    100032: Body2 1
+    100034: Body2_end
+    100036: Body2_end 1
+    100038: Body_fence01a_reference_smd_mesh_0
+    100040: Body_fence01a_reference_smd_mesh_0.001
+    100042: Body_fence01a_reference_smd_mesh_0.002
+    100044: Body_fence01a_reference_smd_mesh_0.003
+    100046: Chair:polySurface1
+    100048: Chair:polySurface1.001
+    100050: Chair:polySurface1.002
+    100052: Chair:polySurface1.003
+    100054: Chair:polySurface1.004
+    100056: Chair:polySurface1.005
+    100058: Chair:polySurface1.006
+    100060: Chair:polySurface1.007
+    100062: Cube
+    100064: Cube.001
+    100066: Cube.002
+    100068: Cube.003
+    100070: Cube.004
+    100072: Cube.039
+    100074: Cube.040
+    100076: Cube.041
+    100078: Cube.043
+    100080: Cube.044
+    100082: Cylinder
+    100084: Cylinder.001
+    100086: Cylinder.002
+    100088: Cylinder.003
+    100090: Door Door1
+    100092: Door Door1.001
+    100094: Door Door1.002
+    100096: Door Door1.003
+    100098: Door Door1.004
+    100100: Door Door1.005
+    100102: Door Frame
+    100104: Door Frame.001
+    100106: Door Frame.002
+    100108: Door Frame.003
+    100110: Door Frame.004
+    100112: Door Frame.005
+    100114: Ford Focus
+    100116: FU_1_L
+    100118: FU_1_L 1
+    100120: FU_1_R
+    100122: FU_1_R 1
+    100124: FU_2_L
+    100126: FU_2_L 1
+    100128: FU_2_R
+    100130: FU_2_R 1
+    100132: FU_3_L
+    100134: FU_3_L 1
+    100136: FU_3_L_end
+    100138: FU_3_L_end 1
+    100140: FU_3_R
+    100142: FU_3_R 1
+    100144: FU_3_R_end
+    100146: FU_3_R_end 1
+    100148: //RootNode
+    100150: Lamp
+    100152: Plane.000
+    100154: Plane.001
+    100156: Plane.002
+    100158: Plane.003
+    100160: Plane.004
+    100162: Plane.005
+    100164: Plane.006
+    100166: Plane.007
+    100168: Plane.008
+    100170: Plane.009
+    100172: Plane.010
+    100174: Plane.011
+    100176: Plane.012
+    100178: Plane.013
+    100180: Plane.014
+    100182: Plane.015
+    100184: Plane.016
+    100186: Plane.017
+    100188: Plane.018
+    100190: Plane.019
+    100192: Plane.021
+    100194: Plane.022
+    100196: Plane.023
+    100198: Plane.024
+    100200: Plane.025
+    100202: Sphere
+    100204: Sphere.001
+    100206: Sphere.002
+    100208: Sphere.003
+    100210: Tyre(Front)
+    100212: Tyre(Front).001
+    100214: Tyre(Front).002
+    100216: Tyre(Front).003
+    100218: v2_B1_L
+    100220: v2_B1_L 1
+    100222: v2_B1_R
+    100224: v2_B1_R 1
+    100226: v2_B2_L
+    100228: v2_B2_L 1
+    100230: v2_B2_R
+    100232: v2_B2_R 1
+    100234: v2_B3_L
+    100236: v2_B3_L 1
+    100238: v2_B3_L.001
+    100240: v2_B3_L.001 1
+    100242: v2_B3_L.001_end
+    100244: v2_B3_L.001_end 1
+    100246: v2_B3_L_end
+    100248: v2_B3_L_end 1
+    100250: v2_B3_R
+    100252: v2_B3_R 1
+    100254: v2_B3_R.001
+    100256: v2_B3_R.001 1
+    100258: v2_B3_R.001_end
+    100260: v2_B3_R.001_end 1
+    100262: v2_B3_R_end
+    100264: v2_B3_R_end 1
+    100266: v3_B1_L
+    100268: v3_B1_L 1
+    100270: v3_B1_R
+    100272: v3_B1_R 1
+    100274: v3_B2_L
+    100276: v3_B2_L 1
+    100278: v3_B2_R
+    100280: v3_B2_R 1
+    100282: v3_B3_L
+    100284: v3_B3_L 1
+    100286: v3_B3_L.001
+    100288: v3_B3_L.001 1
+    100290: v3_B3_L.001_end
+    100292: v3_B3_L.001_end 1
+    100294: v3_B3_L_end
+    100296: v3_B3_L_end 1
+    100298: v3_B3_R
+    100300: v3_B3_R 1
+    100302: v3_B3_R.001
+    100304: v3_B3_R.001 1
+    100306: v3_B3_R.001_end
+    100308: v3_B3_R.001_end 1
+    100310: v3_B3_R_end
+    100312: v3_B3_R_end 1
+    100314: v4_B1_L
+    100316: v4_B1_L 1
+    100318: v4_B1_R
+    100320: v4_B1_R 1
+    100322: v4_B2_L
+    100324: v4_B2_L 1
+    100326: v4_B2_R
+    100328: v4_B2_R 1
+    100330: v4_B3_L
+    100332: v4_B3_L 1
+    100334: v4_B3_L.001
+    100336: v4_B3_L.001 1
+    100338: v4_B3_L.001_end
+    100340: v4_B3_L.001_end 1
+    100342: v4_B3_L_end
+    100344: v4_B3_L_end 1
+    100346: v4_B3_R
+    100348: v4_B3_R 1
+    100350: v4_B3_R.001
+    100352: v4_B3_R.001 1
+    100354: v4_B3_R.001_end
+    100356: v4_B3_R.001_end 1
+    100358: v4_B3_R_end
+    100360: v4_B3_R_end 1
+    100362: v_B1_L
+    100364: v_B1_L 1
+    100366: v_B1_R
+    100368: v_B1_R 1
+    100370: v_B2_L
+    100372: v_B2_L 1
+    100374: v_B2_R
+    100376: v_B2_R 1
+    100378: v_B3_L
+    100380: v_B3_L 1
+    100382: v_B3_L.001
+    100384: v_B3_L.001 1
+    100386: v_B3_L.001_end
+    100388: v_B3_L.001_end 1
+    100390: v_B3_L_end
+    100392: v_B3_L_end 1
+    100394: v_B3_R
+    100396: v_B3_R 1
+    100398: v_B3_R.001
+    100400: v_B3_R.001 1
+    100402: v_B3_R.001_end
+    100404: v_B3_R.001_end 1
+    100406: v_B3_R_end
+    100408: v_B3_R_end 1
+    100410: Wall Elektric
+    100412: Wall Elektric.001
+    100414: Wall Elektric1
+    100416: Wall Elektric1.001
+    100418: Zahn_L
+    100420: Zahn_L 1
+    100422: Zahn_L_end
+    100424: Zahn_L_end 1
+    100426: Zahn_R
+    100428: Zahn_R 1
+    100430: Zahn_R_end
+    100432: Zahn_R_end 1
+    400000: 01_Player_box
+    400002: 02_Spinnen Armature
+    400004: 02_Spinnen Armature.001
+    400006: Area
+    400008: bmw7
+    400010: bmw7.001
+    400012: bmw7.002
+    400014: bmw7.003
+    400016: bmw7.004
+    400018: Body
+    400020: Body 1
+    400022: Body.002
+    400024: Body.002 1
+    400026: Body.003
+    400028: Body.003 1
+    400030: Body2
+    400032: Body2 1
+    400034: Body2_end
+    400036: Body2_end 1
+    400038: Body_fence01a_reference_smd_mesh_0
+    400040: Body_fence01a_reference_smd_mesh_0.001
+    400042: Body_fence01a_reference_smd_mesh_0.002
+    400044: Body_fence01a_reference_smd_mesh_0.003
+    400046: Chair:polySurface1
+    400048: Chair:polySurface1.001
+    400050: Chair:polySurface1.002
+    400052: Chair:polySurface1.003
+    400054: Chair:polySurface1.004
+    400056: Chair:polySurface1.005
+    400058: Chair:polySurface1.006
+    400060: Chair:polySurface1.007
+    400062: Cube
+    400064: Cube.001
+    400066: Cube.002
+    400068: Cube.003
+    400070: Cube.004
+    400072: Cube.039
+    400074: Cube.040
+    400076: Cube.041
+    400078: Cube.043
+    400080: Cube.044
+    400082: Cylinder
+    400084: Cylinder.001
+    400086: Cylinder.002
+    400088: Cylinder.003
+    400090: Door Door1
+    400092: Door Door1.001
+    400094: Door Door1.002
+    400096: Door Door1.003
+    400098: Door Door1.004
+    400100: Door Door1.005
+    400102: Door Frame
+    400104: Door Frame.001
+    400106: Door Frame.002
+    400108: Door Frame.003
+    400110: Door Frame.004
+    400112: Door Frame.005
+    400114: Ford Focus
+    400116: FU_1_L
+    400118: FU_1_L 1
+    400120: FU_1_R
+    400122: FU_1_R 1
+    400124: FU_2_L
+    400126: FU_2_L 1
+    400128: FU_2_R
+    400130: FU_2_R 1
+    400132: FU_3_L
+    400134: FU_3_L 1
+    400136: FU_3_L_end
+    400138: FU_3_L_end 1
+    400140: FU_3_R
+    400142: FU_3_R 1
+    400144: FU_3_R_end
+    400146: FU_3_R_end 1
+    400148: //RootNode
+    400150: Lamp
+    400152: Plane.000
+    400154: Plane.001
+    400156: Plane.002
+    400158: Plane.003
+    400160: Plane.004
+    400162: Plane.005
+    400164: Plane.006
+    400166: Plane.007
+    400168: Plane.008
+    400170: Plane.009
+    400172: Plane.010
+    400174: Plane.011
+    400176: Plane.012
+    400178: Plane.013
+    400180: Plane.014
+    400182: Plane.015
+    400184: Plane.016
+    400186: Plane.017
+    400188: Plane.018
+    400190: Plane.019
+    400192: Plane.021
+    400194: Plane.022
+    400196: Plane.023
+    400198: Plane.024
+    400200: Plane.025
+    400202: Sphere
+    400204: Sphere.001
+    400206: Sphere.002
+    400208: Sphere.003
+    400210: Tyre(Front)
+    400212: Tyre(Front).001
+    400214: Tyre(Front).002
+    400216: Tyre(Front).003
+    400218: v2_B1_L
+    400220: v2_B1_L 1
+    400222: v2_B1_R
+    400224: v2_B1_R 1
+    400226: v2_B2_L
+    400228: v2_B2_L 1
+    400230: v2_B2_R
+    400232: v2_B2_R 1
+    400234: v2_B3_L
+    400236: v2_B3_L 1
+    400238: v2_B3_L.001
+    400240: v2_B3_L.001 1
+    400242: v2_B3_L.001_end
+    400244: v2_B3_L.001_end 1
+    400246: v2_B3_L_end
+    400248: v2_B3_L_end 1
+    400250: v2_B3_R
+    400252: v2_B3_R 1
+    400254: v2_B3_R.001
+    400256: v2_B3_R.001 1
+    400258: v2_B3_R.001_end
+    400260: v2_B3_R.001_end 1
+    400262: v2_B3_R_end
+    400264: v2_B3_R_end 1
+    400266: v3_B1_L
+    400268: v3_B1_L 1
+    400270: v3_B1_R
+    400272: v3_B1_R 1
+    400274: v3_B2_L
+    400276: v3_B2_L 1
+    400278: v3_B2_R
+    400280: v3_B2_R 1
+    400282: v3_B3_L
+    400284: v3_B3_L 1
+    400286: v3_B3_L.001
+    400288: v3_B3_L.001 1
+    400290: v3_B3_L.001_end
+    400292: v3_B3_L.001_end 1
+    400294: v3_B3_L_end
+    400296: v3_B3_L_end 1
+    400298: v3_B3_R
+    400300: v3_B3_R 1
+    400302: v3_B3_R.001
+    400304: v3_B3_R.001 1
+    400306: v3_B3_R.001_end
+    400308: v3_B3_R.001_end 1
+    400310: v3_B3_R_end
+    400312: v3_B3_R_end 1
+    400314: v4_B1_L
+    400316: v4_B1_L 1
+    400318: v4_B1_R
+    400320: v4_B1_R 1
+    400322: v4_B2_L
+    400324: v4_B2_L 1
+    400326: v4_B2_R
+    400328: v4_B2_R 1
+    400330: v4_B3_L
+    400332: v4_B3_L 1
+    400334: v4_B3_L.001
+    400336: v4_B3_L.001 1
+    400338: v4_B3_L.001_end
+    400340: v4_B3_L.001_end 1
+    400342: v4_B3_L_end
+    400344: v4_B3_L_end 1
+    400346: v4_B3_R
+    400348: v4_B3_R 1
+    400350: v4_B3_R.001
+    400352: v4_B3_R.001 1
+    400354: v4_B3_R.001_end
+    400356: v4_B3_R.001_end 1
+    400358: v4_B3_R_end
+    400360: v4_B3_R_end 1
+    400362: v_B1_L
+    400364: v_B1_L 1
+    400366: v_B1_R
+    400368: v_B1_R 1
+    400370: v_B2_L
+    400372: v_B2_L 1
+    400374: v_B2_R
+    400376: v_B2_R 1
+    400378: v_B3_L
+    400380: v_B3_L 1
+    400382: v_B3_L.001
+    400384: v_B3_L.001 1
+    400386: v_B3_L.001_end
+    400388: v_B3_L.001_end 1
+    400390: v_B3_L_end
+    400392: v_B3_L_end 1
+    400394: v_B3_R
+    400396: v_B3_R 1
+    400398: v_B3_R.001
+    400400: v_B3_R.001 1
+    400402: v_B3_R.001_end
+    400404: v_B3_R.001_end 1
+    400406: v_B3_R_end
+    400408: v_B3_R_end 1
+    400410: Wall Elektric
+    400412: Wall Elektric.001
+    400414: Wall Elektric1
+    400416: Wall Elektric1.001
+    400418: Zahn_L
+    400420: Zahn_L 1
+    400422: Zahn_L_end
+    400424: Zahn_L_end 1
+    400426: Zahn_R
+    400428: Zahn_R 1
+    400430: Zahn_R_end
+    400432: Zahn_R_end 1
+    2100000: initialShadingGroup
+    2100002: Material.001
+    2100004: No Name
+    2100006: Door_Color
+    2100008: fence_mat02
+    2100010: fence_mat01
+    2100012: Elektric
+    2100014: der
+    2100016: Material.002
+    2100018: hotel_glas.001
+    2100020: ground.003
+    2100022: Material.005
+    2100024: Material.007
+    2100026: 2
+    2100028: Material.008
+    2100030: Material.000
+    2100032: Wheels.001
+    2100034: Vehicle_Body.001
+    2100036: red_plastic.001
+    2100038: chrome.001
+    2100040: Windows_Glass.001
+    2100042: break_lights.001
+    2100044: Headlights.001
+    2100046: Grey_Plastic_Body_Trim
+    2100048: Black_Plastic_Body_Trim.001
+    2100050: Front_Grille
+    2100052: Indicator_Lights.001
+    2100054: License_Plate_Front.001
+    2100056: License_Plate_Back.001
+    2100058: Material
+    2100060: Material.003
+    2100062: Vehicle_Body
+    2100064: Vehicle_Interior_Geometry
+    2100066: Wheels
+    2100068: TIRS
+    2100070: Black_Plastic_Body_Trim
+    2100072: Windows_Glass
+    2100074: break_lights
+    2100076: chrome
+    2100078: Mirror
+    2100080: License_Plate_Front
+    2100082: License_Plate_Back
+    2100084: Tyre.001
+    2300000: 01_Player_box
+    2300002: bmw7
+    2300004: bmw7.001
+    2300006: bmw7.002
+    2300008: bmw7.003
+    2300010: bmw7.004
+    2300012: Body_fence01a_reference_smd_mesh_0
+    2300014: Body_fence01a_reference_smd_mesh_0.001
+    2300016: Body_fence01a_reference_smd_mesh_0.002
+    2300018: Body_fence01a_reference_smd_mesh_0.003
+    2300020: Chair:polySurface1
+    2300022: Chair:polySurface1.001
+    2300024: Chair:polySurface1.002
+    2300026: Chair:polySurface1.003
+    2300028: Chair:polySurface1.004
+    2300030: Chair:polySurface1.005
+    2300032: Chair:polySurface1.006
+    2300034: Chair:polySurface1.007
+    2300036: Cube
+    2300038: Cube.039
+    2300040: Cube.040
+    2300042: Cube.041
+    2300044: Cube.043
+    2300046: Cube.044
+    2300048: Cylinder
+    2300050: Cylinder.001
+    2300052: Cylinder.002
+    2300054: Cylinder.003
+    2300056: Door Door1
+    2300058: Door Door1.001
+    2300060: Door Door1.002
+    2300062: Door Door1.003
+    2300064: Door Door1.004
+    2300066: Door Door1.005
+    2300068: Door Frame
+    2300070: Door Frame.001
+    2300072: Door Frame.002
+    2300074: Door Frame.003
+    2300076: Door Frame.004
+    2300078: Door Frame.005
+    2300080: Ford Focus
+    2300082: Plane.000
+    2300084: Plane.001
+    2300086: Plane.002
+    2300088: Plane.003
+    2300090: Plane.004
+    2300092: Plane.005
+    2300094: Plane.006
+    2300096: Plane.007
+    2300098: Plane.008
+    2300100: Plane.009
+    2300102: Plane.010
+    2300104: Plane.011
+    2300106: Plane.012
+    2300108: Plane.013
+    2300110: Plane.014
+    2300112: Plane.015
+    2300114: Plane.016
+    2300116: Plane.017
+    2300118: Plane.018
+    2300120: Plane.019
+    2300122: Plane.021
+    2300124: Plane.022
+    2300126: Plane.023
+    2300128: Plane.024
+    2300130: Plane.025
+    2300132: Sphere
+    2300134: Sphere.001
+    2300136: Sphere.002
+    2300138: Sphere.003
+    2300140: Tyre(Front)
+    2300142: Tyre(Front).001
+    2300144: Tyre(Front).002
+    2300146: Tyre(Front).003
+    2300148: Wall Elektric
+    2300150: Wall Elektric.001
+    2300152: Wall Elektric1
+    2300154: Wall Elektric1.001
+    3300000: 01_Player_box
+    3300002: bmw7
+    3300004: bmw7.001
+    3300006: bmw7.002
+    3300008: bmw7.003
+    3300010: bmw7.004
+    3300012: Body_fence01a_reference_smd_mesh_0
+    3300014: Body_fence01a_reference_smd_mesh_0.001
+    3300016: Body_fence01a_reference_smd_mesh_0.002
+    3300018: Body_fence01a_reference_smd_mesh_0.003
+    3300020: Chair:polySurface1
+    3300022: Chair:polySurface1.001
+    3300024: Chair:polySurface1.002
+    3300026: Chair:polySurface1.003
+    3300028: Chair:polySurface1.004
+    3300030: Chair:polySurface1.005
+    3300032: Chair:polySurface1.006
+    3300034: Chair:polySurface1.007
+    3300036: Cube
+    3300038: Cube.039
+    3300040: Cube.040
+    3300042: Cube.041
+    3300044: Cube.043
+    3300046: Cube.044
+    3300048: Cylinder
+    3300050: Cylinder.001
+    3300052: Cylinder.002
+    3300054: Cylinder.003
+    3300056: Door Door1
+    3300058: Door Door1.001
+    3300060: Door Door1.002
+    3300062: Door Door1.003
+    3300064: Door Door1.004
+    3300066: Door Door1.005
+    3300068: Door Frame
+    3300070: Door Frame.001
+    3300072: Door Frame.002
+    3300074: Door Frame.003
+    3300076: Door Frame.004
+    3300078: Door Frame.005
+    3300080: Ford Focus
+    3300082: Plane.000
+    3300084: Plane.001
+    3300086: Plane.002
+    3300088: Plane.003
+    3300090: Plane.004
+    3300092: Plane.005
+    3300094: Plane.006
+    3300096: Plane.007
+    3300098: Plane.008
+    3300100: Plane.009
+    3300102: Plane.010
+    3300104: Plane.011
+    3300106: Plane.012
+    3300108: Plane.013
+    3300110: Plane.014
+    3300112: Plane.015
+    3300114: Plane.016
+    3300116: Plane.017
+    3300118: Plane.018
+    3300120: Plane.019
+    3300122: Plane.021
+    3300124: Plane.022
+    3300126: Plane.023
+    3300128: Plane.024
+    3300130: Plane.025
+    3300132: Sphere
+    3300134: Sphere.001
+    3300136: Sphere.002
+    3300138: Sphere.003
+    3300140: Tyre(Front)
+    3300142: Tyre(Front).001
+    3300144: Tyre(Front).002
+    3300146: Tyre(Front).003
+    3300148: Wall Elektric
+    3300150: Wall Elektric.001
+    3300152: Wall Elektric1
+    3300154: Wall Elektric1.001
+    4300000: Chair:polySurface1.007
+    4300002: Plane.019
+    4300004: Plane.018
+    4300006: Chair:polySurface1.006
+    4300008: Chair:polySurface1.005
+    4300010: Plane.017
+    4300012: Plane.016
+    4300014: Plane.015
+    4300016: Door Frame.005
+    4300018: Door Door1.005
+    4300020: Door Door1.004
+    4300022: Door Frame.004
+    4300024: Plane.014
+    4300026: Plane.013
+    4300028: Door Frame.003
+    4300030: Door Door1.003
+    4300032: Door Door1.002
+    4300034: Door Frame.002
+    4300036: Plane.000
+    4300038: Body_fence01a_reference_smd_mesh_0.003
+    4300040: Body_fence01a_reference_smd_mesh_0.002
+    4300042: Body_fence01a_reference_smd_mesh_0.001
+    4300044: Body_fence01a_reference_smd_mesh_0
+    4300046: Chair:polySurface1.004
+    4300048: Chair:polySurface1.003
+    4300050: Chair:polySurface1.002
+    4300052: Chair:polySurface1.001
+    4300054: Chair:polySurface1
+    4300056: Door Door1.001
+    4300058: Wall Elektric.001
+    4300060: Door Frame.001
+    4300062: Wall Elektric1.001
+    4300064: Wall Elektric1
+    4300066: Door Frame
+    4300068: Wall Elektric
+    4300070: Door Door1
+    4300072: Cube
+    4300074: Plane.012
+    4300076: Plane.011
+    4300078: Plane.010
+    4300080: Plane.009
+    4300082: Plane.008
+    4300084: Plane.007
+    4300086: Plane.006
+    4300088: Plane.005
+    4300090: Plane.004
+    4300092: Plane.003
+    4300094: Plane.002
+    4300096: Plane.001
+    4300098: Cube.039
+    4300100: Cube.040
+    4300102: Cube.041
+    4300104: 01_Player_box
+    4300106: Cube.004
+    4300108: Cube.003
+    4300110: Cube.002
+    4300112: Cube.001
+    4300114: Sphere.001
+    4300116: Sphere.002
+    4300118: Sphere.003
+    4300120: Sphere
+    4300122: bmw7.001
+    4300124: bmw7.002
+    4300126: bmw7.003
+    4300128: bmw7.004
+    4300130: bmw7
+    4300132: Cylinder.001
+    4300134: Cylinder.002
+    4300136: Cylinder.003
+    4300138: Cylinder
+    4300140: Ford Focus
+    4300142: Tyre(Front).001
+    4300144: Tyre(Front).002
+    4300146: Tyre(Front).003
+    4300148: Tyre(Front)
+    4300150: Plane.021
+    4300152: Plane.022
+    4300154: Plane.023
+    4300156: Plane.024
+    4300158: Plane.025
+    7400000: 01_Player_box|die
+    7400002: 02_Spinnen Armature.001|Attack
+    7400004: 02_Spinnen Armature.001|Attack.001
+    7400006: 02_Spinnen Armature.001|die
+    7400008: 02_Spinnen Armature.001|die 2
+    7400010: 02_Spinnen Armature.001|Jump
+    7400012: 02_Spinnen Armature.001|run_ani_vor
+    7400014: 02_Spinnen Armature.001|run_left
+    7400016: 02_Spinnen Armature.001|run_right
+    7400018: 02_Spinnen Armature.001|walk_ani_back
+    7400020: 02_Spinnen Armature.001|walk_ani_vor
+    7400022: 02_Spinnen Armature.001|walk_left
+    7400024: 02_Spinnen Armature.001|walk_right
+    7400026: 02_Spinnen Armature.001|warte_pose
+    7400028: 02_Spinnen Armature|Attack
+    7400030: 02_Spinnen Armature|Attack.001
+    7400032: 02_Spinnen Armature|die
+    7400034: 02_Spinnen Armature|die 2
+    7400036: 02_Spinnen Armature|Jump
+    7400038: 02_Spinnen Armature|run_ani_vor
+    7400040: 02_Spinnen Armature|run_left
+    7400042: 02_Spinnen Armature|run_right
+    7400044: 02_Spinnen Armature|walk_ani_back
+    7400046: 02_Spinnen Armature|walk_ani_vor
+    7400048: 02_Spinnen Armature|walk_left
+    7400050: 02_Spinnen Armature|walk_right
+    7400052: 02_Spinnen Armature|warte_pose
+    9500000: //RootNode
+    10800000: Area
+    10800002: Lamp
+    13700000: Cube.001
+    13700002: Cube.002
+    13700004: Cube.003
+    13700006: Cube.004
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
