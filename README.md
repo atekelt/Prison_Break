@@ -1,4 +1,4 @@
-# escape
+# Prison Break
 <br>
 This Demo of a game is made for a hackethon prepared by gebeya<br>
 The game is about you trying to get out of a prison block by guessing the passcode for the door.<br>
