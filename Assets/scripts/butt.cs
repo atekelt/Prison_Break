@@ -18,7 +18,7 @@ public class butt : MonoBehaviour {
     // Use this for initialization
     void Start () {
         player = GameObject.FindObjectOfType<playercontrol>();
-        gusmsg = "'A' when you get the numbers with there position ; 'B' when you only get the numbers /n \n";
+        gusmsg = "'A' when you get the numbers with there position ; 'B' when you only get the numbers.    \n";
         myArryList.Clear(); 
         t = 4;
         E = 300;

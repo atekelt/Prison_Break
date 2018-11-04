@@ -917,7 +917,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967294
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &56254907
 Transform:
@@ -944,8 +944,8 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_DynamicOccludee: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: a2acbc60438832e4cb5760252f0812ae, type: 2}
@@ -9781,8 +9781,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595756457}
-  m_LocalRotation: {x: 0.1599866, y: 0.65525645, z: 0.14480922, w: -0.7239293}
-  m_LocalPosition: {x: 260.10962, y: -30.084309, z: 195.38545}
+  m_LocalRotation: {x: 0.21702649, y: 0.5359992, z: 0.1448856, w: -0.80287766}
+  m_LocalPosition: {x: 244.57025, y: -62.500183, z: 175.73817}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28979,7 +28979,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 0e0b4cac79e1f414ba9e72172be54627, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 209
+      value: 270.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e0b4cac79e1f414ba9e72172be54627, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28987,7 +28987,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e0b4cac79e1f414ba9e72172be54627, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 357
+      value: 226.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e0b4cac79e1f414ba9e72172be54627, type: 3}
       propertyPath: m_LocalRotation.x
@@ -29230,7 +29230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 60
+  m_Text: 300
 --- !u!222 &1739238369
 CanvasRenderer:
   m_ObjectHideFlags: 0
